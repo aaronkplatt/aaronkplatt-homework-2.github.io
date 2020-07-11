@@ -1,5 +1,5 @@
 /*container  */
-.container {
+body {
     background-color: #ebebeb;
 }
 
@@ -8,43 +8,48 @@
 /* INDEX */
 /* nav... make name bigger, make screen size better */
 .nav {
-    height: 80px;
     text-align: center;
-    padding: 10px;
+    padding: 27px;
 }
 .name {
     background-color: teal;
-    font-size: 20px;
+    font-size:44px;
     font-weight: bold;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     padding: 25px;
-    height: 80px;
 }
-
+.row {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+}
 /* body... Space everything to the right. fix the my-5.*/
 .aboutBox {
     background-color: white;
 }
 .aboutBoxHeader {
-    padding: 20px;
+    padding: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
 .aboutBoxDescription {
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
 }
-.my-5 {
-    
-}
 
 
 
 /* footer... need help */
-.footer {
+footer {
     text-align: center;
+    width: 100%;
     bottom: 0px;
+    border-top: 10px solid teal;
+    padding-bottom: 25px;
+    padding-top: 25px;
     position: fixed;
+    background-color:#666;
+    color: #fff;
 }
 
 
