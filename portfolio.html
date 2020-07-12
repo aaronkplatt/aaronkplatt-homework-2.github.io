@@ -1,39 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>   
+
+<body>
   <div class="container">
     <!-- Nav Bar -->
-      <nav class="navbar navbar-default">
-        <div class="col-md-4">
-          <div class="name" style="color: white;">Aaron Platt</div>
-        </div>
-        
-        <div class="col-md-4"><!-- empty --></div>
-          <div class="col-md-4">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">About</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
+    <nav class="navbar navbar-default">
+      <div class="col-md-4">
+        <div class="name" style="color: white;">Aaron Platt</div>
+      </div>
+
+      <div class="col-md-4">
+        <!-- empty -->
+      </div>
+      <div class="col-md-4">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- body -->
+    <div class="row" style="padding-bottom: 15px;"> 
+      <div class="col-md-8">
+        <div class="portfolioBox">
+          <div class="portfolioBoxHeader">
+            <span class="border-bottom" style="color: teal;">
+              <h1>Portfolio</h1>
+            </span>
           </div>
-      </nav>
+          <hr class="my-5">
+
+          <!-- ROW 1 in cards-->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="Assets/portfolio-img-1.jpg" alt="matrix">
+                <div class="card-body">
+                  <div class="card-text">MATRIX</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="Assets/portfolio-img-2.jpg" alt="fox">
+                <div class="card-body">
+                  <div class="card-text">FOX</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- row 2 -->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="Assets/portfolio-img-3.jpg" alt="simpsons">
+                <div class="card-body">
+                  <p class="card-text">DOGGO</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="Assets/portfolio-img-4.jpg" alt="cow bug">
+                <div class="card-body">
+                  <p class="card-text">COW-BUG</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- row 3 -->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="Assets/portfolio-img-5.jpg" alt="bird">
+                <div class="card-body">
+                  <p class="card-text">BIRD</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-
-
-
+</div>
     <!-- footer -->
-  <footer class="fixed-bottom">
-    <p>@copyright</p>
-  </footer>
+    <footer class="fixed-bottom">
+      <p>@copyright</p>
+    </footer>
 </body>
+
 </html>
