@@ -104,10 +104,10 @@ footer {
     border-top: 10px solid teal;
     padding-bottom: 25px;
     padding-top: 25px;
-    position: relative;
+    position: fixed;
     background-color:#666;
     color: #fff;
+    margin-top: 0;
 }
-
 
 
