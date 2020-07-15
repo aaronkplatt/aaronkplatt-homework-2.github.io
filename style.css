@@ -1,4 +1,4 @@
-/*container  */
+/*container + random  */
 body {
     background-color: #ebebeb;
 }
@@ -11,7 +11,7 @@ hr.my-5 {
 
 
 
-/* INDEX */
+
 /* nav */
 .nav {
     text-align: center;
@@ -26,12 +26,11 @@ hr.my-5 {
     padding: 25px;
 }
 .row {
-    
-    
     padding-left: 15px;
     padding-right: 15px;
 }
-/* body */
+
+/* Index */
 .aboutBox {
     background-color: white;
 }
@@ -43,13 +42,6 @@ hr.my-5 {
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
-
-
-
-
-
 
 
 /* PORTFOLIO PAGE */
@@ -65,14 +57,12 @@ hr.my-5 {
     height: 100%;
     max-height: 200px;
     object-fit: cover;
-    
 }
 .card {
     padding: 7px;
     width: 100%;
     height: 100%;
     margin: 0;
-    
 }
 .position-relative{
     position:relative;
@@ -95,8 +85,6 @@ hr.my-5 {
 
 
 /* CONTACT PAGE */
-
-
 .input-group {
     width: 100%;
     padding-left: 15px;
